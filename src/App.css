@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100&display=swap');
+
+
+
+
+.App {text-align: center;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+display:flex;
+justify-content: space-around;
+align-items: center;
+min-height: 10vh;
+background:rgb(73, 79, 82);
+color:white;
+
+
+
+}
+.nav-links{
+font-family: 'Roboto', sans-serif;
+width: 50%;
+display:flex;
+justify-content:space-around;
+align-items: center;
+list-style: none;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.photo{
+    display :flex; 
+    justify-content: center;
+    text-align: center;
+    
+    
+   
+    width: 100%;
+  
+}
+.titleItem{
+    margin:auto;
+    padding:auto;
+    display:flex; 
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.itemDescription{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;   
+    margin:auto;
+    padding:auto;
+    width: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.photo img {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+    padding:auto;
+
+     box-shadow: 2px;
+     width: 250;
+     height: 250px;
+
+}
+.box-item{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    
+    height: 800px;
+    width: 700px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    flex-direction: column;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+.about-box{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:auto;
+    margin:auto; 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    height: 500px;
+    width: 500px;
+
+    
+    
+}
+.about-title{
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: inherit;
+    font-size: 2em;
+
+}
+.about-p{
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: auto;
+    padding: inherit;
+    font-size: 1.5em;
+}
+ 
+.shop{
+    height: 600px;
+    width: 600px;
+    font-family: 'Roboto', sans-serif; 
+    justify-content: center;
+    margin:auto;
+    padding:auto;
+    font-size: 1.3em;
+    
 }
