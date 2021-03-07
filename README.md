@@ -1,3 +1,8 @@
+# This is just a prototype for practicing React Dinamic Roots, Hooks and fetching an API fake ecomerce items
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
